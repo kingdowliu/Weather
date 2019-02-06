@@ -56,3 +56,4 @@ if __name__=='__main__':
         time = str(datetime.datetime.now().strftime('%H%M%S'))
         if time == '090000':  # 这里自己修改时间，090000代表早上九点整发送
             run()
+
