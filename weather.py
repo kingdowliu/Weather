@@ -7,7 +7,7 @@ import datetime
 
 
 def getWeather():
-    url='http://t.weather.sojson.com/api/weather/city/101240210'  # 这里将101240210替换成想要查询的城市的代码
+    url='http://t.weather.sojson.com/api/weather/city/101110101'  # 这里将101110101替换成想要查询的城市的代码
     headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:64.0) Gecko/20100101 Firefox/64.0'}
     response = requests.get(url, headers=headers)
     data = json.loads(response.text)
